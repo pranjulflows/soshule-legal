@@ -85,8 +85,8 @@
   <tr><td>Supabase</td><td>Our database and server functions. Data is stored in India (Mumbai region).</td><td>Everything in section 1</td></tr>
   <tr><td>Google</td><td>Sign in with Google</td><td>Your sign-in request</td></tr>
   <tr><td>OpenRouter</td><td>The first route for the coach and writing help: it passes each request to an AI model, only on providers that don't keep requests or use them for training</td><td>Coach and writing-help requests (section 1)</td></tr>
-  <tr><td>Google (Gemini)</td><td>Backs up the coach if OpenRouter is unavailable</td><td>Coach requests, only when used as a backup</td></tr>
-  <tr><td>Anthropic</td><td>Reads your writing voice, and a further backup for the coach</td><td>Your writing sample; coach requests only when used as a backup</td></tr>
+  <tr><td>Anthropic</td><td>Reads your writing voice, and backs up the coach if OpenRouter is unavailable</td><td>Your writing sample; coach requests only when used as a backup</td></tr>
+  <tr><td>Google (Gemini)</td><td>A further backup for the coach</td><td>Coach requests, only when used as a backup</td></tr>
   <tr><td>OpenAI</td><td>A last backup for the coach</td><td>Coach requests, only when used as a backup</td></tr>
 </table>
 <p>Each provider handles your information under its own terms for business customers. Their privacy policies: <a href="https://supabase.com/privacy">Supabase</a>, <a href="https://openrouter.ai/privacy">OpenRouter</a>, <a href="https://policies.google.com/privacy">Google</a>, <a href="https://www.anthropic.com/legal/privacy">Anthropic</a>, <a href="https://openai.com/policies/privacy-policy/">OpenAI</a>.</p>
